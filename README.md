@@ -1,6 +1,6 @@
 ﻿# audiocue-demo
 
-This project was written to demonstrate a variety of usages of the `AudioCue` class. It contains a number of runnable classes, and a copy of *AudioCue-1.0.0.jar*. The class `AudioCue` is a powerful replacement for the Java `Clip`, enhanced to allow concurrent playback with real time controls for volume, panning and pitch. The source for `AudioCue` is located at [philfrei/AudioCue](https://github.com/philfrei/AudioCue).
+This project was written to demonstrate a variety of usages of the `AudioCue` class. It contains a number of runnable classes, and a copy of *AudioCue-1.0.0.jar*. The class `AudioCue` is a powerful replacement for the Java `Clip`, enhanced to allow concurrent playback with real time controls for volume, panning and pitch. The source for `AudioCue` is located at [philfrei/AudioCue-maven](https://github.com/philfrei/AudioCue-maven).
 
 ## License 
 BSD License
@@ -33,4 +33,5 @@ Email: phil AT adonax.com
 Recommended forum: [jvm-gaming.org CATEGORY: JavaSound](https://jvm-gaming.org/c/java-sound-amp-openal/12)
 
 If using StackOverflow for a question about this code, chances are highest
-that I will eventually see it if you include the tag "javasound".
+that I will eventually see it if you include the tag "javasound". I also 
+follow the audio topic at jvm-gaming.org.
