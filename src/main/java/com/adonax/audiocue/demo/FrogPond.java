@@ -83,8 +83,8 @@ public class FrogPond implements AudioCueListener {
 	    cue.open();
 		Thread.sleep(100);
 		
-		// Plays for 12 seconds.
-		long futureStop = System.currentTimeMillis() + 12_000;
+		// Plays for 15 seconds.
+		long futureStop = System.currentTimeMillis() + 15_000;
 		
 		while (System.currentTimeMillis() < futureStop)
 		{
@@ -96,7 +96,7 @@ public class FrogPond implements AudioCueListener {
 			} else {
 				cue.play(vol, pan, pitch, 0);
 			}
-			Thread.sleep((int)(Math.random() * 500) + 50);
+			Thread.sleep((int)(Math.random() * 1000) + 150);
 		}
 		
 		Thread.sleep(1000);
